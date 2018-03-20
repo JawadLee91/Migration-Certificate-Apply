@@ -1,0 +1,103 @@
+.dez-button,.dez-button-10,.dez-button-15,.dez-button-20,.dez-button-25,.dez-button-30,.dez-button-35,.dez-button-40,.dez-button-45,.dez-button-50,.dez-button-55,.dez-button-60,.dez-button-65,.dez-button-70,.dez-button-75,.dez-button-80,.dez-button-85,.dez-button-90,.dez-button-95,.dez-button-100
+{
+	background:white;
+	padding:2%;
+	box-shadow:0px 0px 3px #000;
+	float:left;
+	border:1px solid black;
+	text-transform:uppercase;
+	-webkit-transition:background 1s;
+	transition:background 1s;
+	font-weight:bold;
+}
+.dez-button:hover,.dez-button-10:hover,.dez-button-15:hover,.dez-button-20:hover,.dez-button-25:hover,.dez-button-30:hover,.dez-button-35:hover,.dez-button-40:hover,.dez-button-45:hover,.dez-button-50:hover,.dez-button-55:hover,.dez-button-60:hover,.dez-button-65:hover,.dez-button-70:hover,.dez-button-75:hover,.dez-button-80:hover,.dez-button-85:hover,.dez-button-90:hover,.dez-button-95:hover,.dez-button-100:hover
+{
+	background:#f1f0f0;
+	box-shadow:0px 0px 5px #000;
+}
+/*==================== */
+.dez-button-10,.dez-button
+{
+	width:10%;
+}
+.dez-button-15
+{
+	width:15%;
+}
+.dez-button-20
+{
+	width:20%;
+}
+.dez-button-25
+{
+	width:25%;
+}
+.dez-button-30
+{
+	width:30%;
+}
+.dez-button-35
+{
+	width:35%;
+}
+.dez-button-40
+{
+	width:40%;
+}
+.dez-button-45
+{
+	width:45%;
+}
+.dez-button-50
+{
+	width:50%;
+}
+.dez-button-55
+{
+	width:55%;
+}
+.dez-button-60
+{
+	width:60%;
+}
+.dez-button-65
+{
+	width:65%;
+}
+.dez-button-70
+{
+	width:70%;
+}
+.dez-button-75
+{
+	width:75%;
+}
+.dez-button-80
+{
+	width:80%;
+}
+.dez-button-85
+{
+	width:85%;
+}
+.dez-button-90
+{
+	width:90%;
+}
+.dez-button-95
+{
+	width:95%;
+}
+.dez-button-100
+{
+	width:100%;
+}
+/* ==================================== */
+@media only screen and (max-width:600px)
+{
+	.dez-button,.dez-button-10,.dez-button-15,.dez-button-20,.dez-button-25,.dez-button-30,.dez-button-35,.dez-button-40,.dez-button-45,.dez-button-50,.dez-button-55,.dez-button-60,.dez-button-65,.dez-button-70,.dez-button-75,.dez-button-80,.dez-button-85,.dez-button-90,.dez-button-95,.dez-button-100
+	{
+		width:100%;
+		font-size:18px;
+	}
+}

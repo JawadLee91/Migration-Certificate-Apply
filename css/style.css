@@ -1,0 +1,79 @@
+body
+{
+	font-family:palatino linotype;
+}
+.logo
+{
+	width:75%;
+	height:150px;
+}
+.text-center
+{
+	text-align:center;
+}
+a
+{
+	text-decoration:none;
+}
+.text-purple
+{
+	color:#8F46FD;
+}
+.text-normal
+{
+	font-size:1.2rem;
+}
+.text-light-purple
+{
+	color:#A267D4;
+}
+.text-padding-10
+{
+	padding-left:5%;
+	padding-right:5%;
+}
+.banner img
+{
+	height:500px;
+	width:100%;
+}
+.student_signup_form input[type='text'],.student_signup_form input[type='email'],.student_signup_form input[type='password'],.student_signup_form input[type='file'],.mig-textarea
+{
+	width:45%;
+	padding:0.8%;
+	font-weight:bold;
+	color:#8F46FD;
+	margin-top:1%;
+	border:2px solid #8F46FD;
+}
+.purple
+{
+	background:#8F46FD;
+}
+.student_signup_form input[type='submit']
+{
+	width:45%;
+	padding:0.8%;
+	font-weight:bold;
+	color:#ffffff;
+	background:#8F46FD;
+	margin-top:1%;
+	border:2px solid #8F46FD;
+}
+table tr th
+{
+	border:1px solid #000;
+}
+@media only screen and (max-width:530px)
+{
+.student_signup_form input[type='text'],.student_signup_form input[type='email'],.student_signup_form input[type='password'],.student_signup_form input[type='file'],.mig-textarea
+{
+	width:100%;
+	padding:0.8%;
+	font-weight:bold;
+	color:#8F46FD;
+	margin-top:1%;
+	border:2px solid #8F46FD;
+}
+
+}
