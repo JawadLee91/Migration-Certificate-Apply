@@ -37,7 +37,7 @@ a
 	height:500px;
 	width:100%;
 }
-.student_signup_form input[type='text'],.student_signup_form input[type='email'],.student_signup_form input[type='password'],.student_signup_form input[type='file'],.mig-textarea
+.student_signup_form input[type='text'],.student_signup_form input[type='email'],.student_signup_form input[type='password'],.student_signup_form input[type='file'],.mig-textarea,.mig-select
 {
 	width:45%;
 	padding:0.8%;
@@ -45,6 +45,10 @@ a
 	color:#8F46FD;
 	margin-top:1%;
 	border:2px solid #8F46FD;
+}
+.mig-select
+{
+	text-transform:uppercase;
 }
 .purple
 {
@@ -66,7 +70,7 @@ table tr th
 }
 @media only screen and (max-width:530px)
 {
-.student_signup_form input[type='text'],.student_signup_form input[type='email'],.student_signup_form input[type='password'],.student_signup_form input[type='file'],.mig-textarea
+.student_signup_form input[type='text'],.student_signup_form input[type='email'],.student_signup_form input[type='password'],.student_signup_form input[type='file'],.mig-textarea,.mig-select
 {
 	width:100%;
 	padding:0.8%;
@@ -76,4 +80,17 @@ table tr th
 	border:2px solid #8F46FD;
 }
 
+}
+.text-green
+{
+	color:green;
+}
+.information
+{
+	width:100%;
+}
+.information td,th
+{
+	border:1px solid #000;
+	width:50%;
 }
