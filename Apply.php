@@ -65,7 +65,7 @@ if(isset($_POST['submit']))
 	
 	if($one && $two &&$three && $four && $five && $six && $seven && $eight && $nine)
 	{
-		$Insert = "insert into `apply_migration`(full_name,gender,admission_no,father_name,last_college,last_college_status,branch,admission_time,qualification_time,challan_amount,challan_no,challan_date,challan_bank,address,permanent_address,phone,university_address,signature,photo,degree,first_sem,second_sem,third_sem,fourth_sem,fifth_sem,sixth_sem,status,email) values('$full_name','$gender','$admission_no','$father_name','$last_college','$last_college_status','$branch','$admission_time','$qualification_time','$challan_amount','$challan_no','$challan_date','$challan_bank','$address','$permanent_address','$phone','$university_address','$signature','$photo','$degree','$first_sem','$second_sem','$third_sem','$fourth_sem','$fifth_sem','$sixth_sem','$status','$current_user')";
+		$Insert = "insert into `apply_migration`(full_name,gender,admission_no,father_name,last_college,last_college_status,branch,admission_time,qualification_time,challan_amount,challan_no,challan_date,challan_bank,address,permanent_address,phone,university_address,signature,photo,degree,first_sem,second_sem,third_sem,fourth_sem,fifth_sem,sixth_sem,status,email,received) values('$full_name','$gender','$admission_no','$father_name','$last_college','$last_college_status','$branch','$admission_time','$qualification_time','$challan_amount','$challan_no','$challan_date','$challan_bank','$address','$permanent_address','$phone','$university_address','$signature','$photo','$degree','$first_sem','$second_sem','$third_sem','$fourth_sem','$fifth_sem','$sixth_sem','$status','$current_user','Not Received')";
 	
 		$InsertQuery = mysqli_query($conn,$Insert);
 		if($InsertQuery)

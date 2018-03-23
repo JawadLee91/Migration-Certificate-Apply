@@ -54,12 +54,12 @@ $current_user = $_SESSION['current_user'];
 					<tr><th>Previous College Status</th><td>$last_college_status</td></tr>
 					<tr><th>Branch Or Course</th><td>$branch</td></tr>
 					<tr><th>Admission Year and Month</th><td>$admission_time</td></tr>
-					<tr><th>Qualification Yeam and Month</th><td>$qualification_time</td></tr>
+					<tr><th>Qualification Year and Month</th><td>$qualification_time</td></tr>
 					<tr><th>Challan Amount</th><td>$challan_amount</td></tr>
 					<tr><th>Challan Number</th><td>$challan_no</td></tr>
 					<tr><th>Challan Date</th><td>$challan_date</td></tr>
 					<tr><th>Challan Of Bank</th><td>$challan_bank</td></tr>
-					<tr><th>Address</th><td> nl2br($$address) </td></tr>
+					<tr><th>Address</th><td> $address </td></tr>
 					<tr><th>Permanent Address</th><td>$permanent_address</td></tr>
 					<tr><th>Mobile Number</th><td>$phone</td></tr>
 					<tr><th>University Address</th><td>$university_address</td></tr>

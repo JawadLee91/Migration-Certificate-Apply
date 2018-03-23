@@ -1,19 +1,7 @@
-<?php 
-include("Connection/Connect.php"); 
-session_start();
-$current_user = $_SESSION['current_user'];
-if(empty($current_user))
-{
-	header("refresh:0.01;url=LoginAccount.php");
-}
-else
-{
-?>
-
 <!-- DOCTYPE HTML -->
 <html>
 <head>
-	<title>Welcome To Migration Session. | Student Login | Home Page</title>
+	<title>Welcome To Migration Session. | Student Login | Apply Migration</title>
 	<meta name="viewport" content="width=device-width;initial-scale=1.0" />
 	<meta name="keywords" content="Sri Venkateshwara University Migration Session and Student Login Page Here. Apply for Migration Here." />
 	<meta name="description" content="Here You can apply for migration of MCA Certificate to the Principal. Just Login and Apply easily." />
@@ -23,17 +11,18 @@ else
 </head>
 <body style="background-image:url('img/background.jpeg');width:99%;position:absolute;">
 <?php include("Assets/Header.php"); ?>
+
 <?php include("Assets/NavigationBar.php"); ?>
+
 <div class="dez-col-100">
-	<h2 class="text-center text-purple">Congratulations!! You Successfully Applied For Migration Certificate. ( <a href="Connection/Logout.php">LOUOUT</a> )</h2>
+	<h2 class="text-center text-purple">Principal Login Here</h2>
+	<center>	<form method="post" action="P_Login.php" class="student_signup_form">
+			<input type="email" name="email" placeholder="Enter Valid Email" required />
+			<input type="password" name="password" placeholder="Enter Password" required />
+			<input type="submit" name="submit" value="Login" />
+	</center>	</form>
 </div>
-<div class="dez-col-100">
-	<?php include("Connection/DownloadMigration.php"); ?>
-</div>
-<?php include("Connection/ApplicationDetails.php"); ?>
+
 <?php include("Assets/Footer.php"); ?>
 </body>
 </html>
-<?php
-}
-?>
